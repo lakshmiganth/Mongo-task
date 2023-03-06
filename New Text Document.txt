@@ -1,0 +1,7 @@
+1.db.products.find()
+2.db.products.find({ price: { $gte: 400, $lte: 800 } })
+3.db.products.find({ price: { $not: { $gt: 400, $lt: 600 } } })
+4.db.products.find({price: {$gt: 500}})
+5.db.products.findOne({row_id: 10})
+9.db.products.find({color: "indigo", price: 492.00})
+
